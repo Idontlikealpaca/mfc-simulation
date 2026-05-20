@@ -8,7 +8,7 @@
 
 ```
 .
-├── simulation_results.py   # 시뮬레이션 메인 코드 (이 파일만 실행하면 됩니다)
+├── simulation_results.py   # 시뮬레이션 메인 코드 
 ├── summary_stats.txt       # 시뮬레이션 결과 요약표 (자동 생성)
 ├── plots/                  # 그래프 출력 폴더 (자동 생성)
 │   ├── daily_profile.png          # 24시간 부하 프로파일 및 ESS SoC
@@ -16,8 +16,8 @@
 │   ├── savings_distribution.png   # 연간 절감액 분포
 │   ├── bep_cdf.png                # 손익분기점 누적분포함수
 │   └── peak_reduction_boxplot.png # 월별 최대수요전력 감소 박스플롯
-├── report.md               # 시뮬레이션 결과 보고서 (한국어)
-└── methodology.md          # 코드 방법론 설명서 (한국어)
+├── report.md               # 시뮬레이션 결과 보고서 
+└── methodology.md          # 코드 방법론 설명서 
 ```
 
 ---
@@ -30,7 +30,7 @@
 pip install numpy pandas matplotlib scipy
 ```
 
-한글 폰트(NanumGothic)가 없으면 그래프 텍스트가 깨질 수 있습니다.
+한글 폰트(NanumGothic)가 없으면 그래프 텍스트가 깨질 수 있다.
 
 **Ubuntu / Debian**
 ```bash
@@ -48,7 +48,7 @@ brew install font-nanum
 python3 simulation_results.py
 ```
 
-실행하면 다음 순서로 진행됩니다.
+실행하면 다음 순서로 진행된다.
 
 ```
 Part 1: Deterministic daily simulation ...   # 결정론적 단일일 시뮬레이션
@@ -56,7 +56,7 @@ Part 2: Annual Monte Carlo (500 x 365) ...   # 연간 몬테카를로 (약 15–
 Part 3: CO2 reduction estimate ...           # CO2 절감 계산
 ```
 
-완료 후 `plots/` 폴더와 `summary_stats.txt`가 자동으로 생성됩니다.
+완료 후 `plots/` 폴더와 `summary_stats.txt`가 자동으로 생성된다.
 
 ---
 
