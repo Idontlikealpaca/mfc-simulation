@@ -1,0 +1,18 @@
+==================================================================
+  MFC School Energy Simulation -- Summary Statistics
+  (500 Monte Carlo iterations x 365 days)
+==================================================================
+  Baseline annual cost          : 57.094 +/- 0.642 M won
+  With MFC+ESS annual cost      : 56.998 +/- 0.643 M won
+  Mean annual savings           : 9.6 +/- 0.2 (x10k won)  (0.17%)
+  95% CI on savings             : 9.2 -- 10.0 (x10k won)
+  Avg monthly peak reduction    : 1.11 kW  (0.6%)
+  Peak-cut success rate         : 4.9%
+  (% of days with grid peak < 90 kW)
+  Mean BEP                      : 1432.1 months
+  90% CI on BEP                 : 1385.4 -- 1484.1 months
+  Annual MFC generation         : 9.9668 kWh/year
+  Annual CO2 offset             : 4.3714 kgCO2/year
+  Pine tree equivalent          : 0.662 trees/year
+  System cost                   : 1150 (x10k won)
+==================================================================
